@@ -1,0 +1,257 @@
+.conatiner {}
+
+.top-area {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.top-area2 {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.icon {
+    margin: 0 auto;
+    color: rgb(100, 100, 100);
+    width: 96%;
+    margin: 2%;
+    float: left;
+    clear: both;
+    position: relative;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #2191FB;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bottom-area {
+    width: 100%;
+    float: left;
+    border: 1px solid;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.instruct {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-area {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.searchbar {
+    margin: 2% 2%;
+    width: 96%;
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.sub-header {
+    float: left;
+    font-weight: 600;
+    color: #2c2c2c;
+    font-size: 18px;
+    margin: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description {
+    clear: both;
+    float: left;
+    margin: 0 auto;
+    margin: 0px 3% 3% 3%;
+}
+
+.mini-description {
+    width: 30%;
+    margin: 0 auto;
+    float: left;
+}
+
+.mini-description.one {
+    margin: 2% 0px 2% 3%;
+}
+
+.mini-description.two {
+    margin: 2%;
+}
+
+.mini-description.three {
+    margin: 2% 3% 2% 0px;
+}
+
+.item-title {
+    float: left;
+    clear: both;
+    font-style: oblique;
+    font-size: 20px;
+    margin: 0 auto;
+    margin: 0px 3%;
+}
+
+.title {
+    float: left;
+    clear: both;
+    font-style: oblique;
+    font-size: 20px;
+    margin: 0 auto;
+    margin: 0px 3%;
+}
+
+.collect-desc {
+    width: 45%;
+    margin: 0 auto;
+    border: 1px solid;
+    float: left;
+}
+
+.collect-desc.one {
+    margin: 0px 2% 1% 3%;
+}
+
+.collect-desc.two {
+    margin: 0px 3% 1% 2%;
+}
+
+.collect-desc.three {
+    margin: 0px 2% 1% 3%;
+}
+
+.collect-desc.four {
+    margin: 0px 3% 1% 2%;
+}
+
+.item-desc {
+    clear: both;
+    float: left;
+    margin: 0 auto;
+    margin: 0px 3% 3% 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item-id {
+    float: left;
+    clear: both;
+    color: #9d9d9d;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0 auto;
+    width: 94%;
+    text-align: center;
+    margin: 0px 3%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.product-name {
+    float: left;
+    clear: both;
+    color: #2c2c2c;
+    font-size: 24px;
+    width: 94%;
+    text-align: center;
+    margin: 0px 3%;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width:800px) {
+    .mini-description {
+        width: 96%;
+        float: left;
+        clear: both;
+    }
+
+    .mini-description.one {
+        margin: 2% 2% 0 2%;
+    }
+
+    .mini-description.two {
+        margin: 2%;
+
+    }
+
+    .mini-description.three {
+        margin: 0% 2% 2% 2%;
+    }
+
+    .icon {
+        margin: 0 auto;
+        color: rgb(100, 100, 100);
+        width: 96%;
+        margin: 2%;
+        float: left;
+        clear: both;
+        position: relative;
+        text-align: center;
+    }
+
+    .search-area {
+        width: 94%;
+    }
+
+    .searchbar {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .collect-desc {
+        width: 96%;
+        margin: 2% 2%;
+        float: left;
+        clear: left;
+    }
+
+    .collect-desc.one {
+        margin: 2% 2% 1% 2%;
+    }
+
+    .collect-desc.two,
+    .collect-desc.three {
+        margin: 1% 2%;
+    }
+
+    .collect-desc.four {
+        margin: 1% 2% 2% 2%;
+    }
+}
